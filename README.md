@@ -48,23 +48,29 @@
    ```bash
    http://localhost:3000/api-docs
 
-Endpoints Disponíveis
-Cortes
-POST /cortes - Adiciona um novo corte.
-GET /cortes - Lista todos os cortes.
-PUT /cortes/{id} - Atualiza os dados de um corte.
-Horários
-POST /horarios - Adiciona um novo horário.
-GET /horarios - Lista todos os horários.
-PUT /horarios/{id} - Atualiza os dados de um horário.
-DELETE /horarios/{id} - Exclui um horário.
-Barbeiros
-POST /barbeiros - Adiciona um novo barbeiro.
-GET /barbeiros - Lista todos os barbeiros.
-PUT /barbeiros/{id} - Atualiza os dados de um barbeiro.
-DELETE /barbeiros/{id} - Remove um barbeiro.
-Usuários
-POST /usuarios - Cadastra um novo usuário.
-Autenticação
-POST /login - Realiza o login de um usuário.
+## Endpoints Disponíveis
+
+### Cortes
+- **POST** `/cortes` - Adiciona um novo corte.  
+- **GET** `/cortes` - Lista todos os cortes.  
+- **PUT** `/cortes/{id}` - Atualiza os dados de um corte.  
+
+### Horários
+- **POST** `/horarios` - Adiciona um novo horário.  
+- **GET** `/horarios` - Lista todos os horários.  
+- **PUT** `/horarios/{id}` - Atualiza os dados de um horário.  
+- **DELETE** `/horarios/{id}` - Exclui um horário.  
+
+### Barbeiros
+- **POST** `/barbeiros` - Adiciona um novo barbeiro.  
+- **GET** `/barbeiros` - Lista todos os barbeiros.  
+- **PUT** `/barbeiros/{id}` - Atualiza os dados de um barbeiro.  
+- **DELETE** `/barbeiros/{id}` - Remove um barbeiro.  
+
+### Usuários
+- **POST** `/usuarios` - Cadastra um novo usuário.  
+
+### Autenticação
+- **POST** `/login` - Realiza o login de um usuário.
+
 
