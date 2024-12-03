@@ -25,7 +25,7 @@
 - **Node.js**
 - **Express**
 - **Swagger** para documentação da API
-- **Arquitetura RESTful**
+- **Servidor Flask** Servidor python
 
 ---
 
