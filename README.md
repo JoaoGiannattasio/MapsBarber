@@ -9,6 +9,7 @@
 <h4 align="center">API para gestão de agendamentos, clientes, serviços e feedbacks em uma barbearia.</h4>
 
 ---
+## Documentação BarberShop: https://manuellrds.github.io/docprjetoBARBER/
 
 ## Recursos
 
