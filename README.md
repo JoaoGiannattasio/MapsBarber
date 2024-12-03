@@ -48,41 +48,23 @@
    ```bash
    http://localhost:3000/api-docs
 
------------------
-Recursos e Endpoints
+Endpoints Disponíveis
 Cortes
-POST /cortes
-Adiciona um novo corte.
-GET /cortes
-Lista todos os cortes.
-PUT /cortes/{id}
-Atualiza os dados de um corte específico.
-------------------
+POST /cortes - Adiciona um novo corte.
+GET /cortes - Lista todos os cortes.
+PUT /cortes/{id} - Atualiza os dados de um corte.
 Horários
-POST /horarios
-Adiciona um novo horário.
-GET /horarios
-Lista todos os horários.
-PUT /horarios/{id}
-Atualiza os dados de um horário específico.
-DELETE /horarios/{id}
-Exclui um horário.
-----------------------
+POST /horarios - Adiciona um novo horário.
+GET /horarios - Lista todos os horários.
+PUT /horarios/{id} - Atualiza os dados de um horário.
+DELETE /horarios/{id} - Exclui um horário.
 Barbeiros
-POST /barbeiros
-Adiciona um novo barbeiro.
-GET /barbeiros
-Retorna a lista de barbeiros.
-PUT /barbeiros/{id}
-Atualiza os dados de um barbeiro específico.
-DELETE /barbeiros/{id}
-Remove um barbeiro.
----------------------
+POST /barbeiros - Adiciona um novo barbeiro.
+GET /barbeiros - Lista todos os barbeiros.
+PUT /barbeiros/{id} - Atualiza os dados de um barbeiro.
+DELETE /barbeiros/{id} - Remove um barbeiro.
 Usuários
-POST /usuarios
-Cadastra um novo usuário.
+POST /usuarios - Cadastra um novo usuário.
 Autenticação
-POST /login
-Realiza login de um usuário.
-----------------
+POST /login - Realiza o login de um usuário.
 
