@@ -35,3 +35,14 @@
 
    ```bash
    git clone https://github.com/seu-usuario/barbershop.git
+2. Navegue até o diretório do projeto:
+```bash
+cd api
+
+3. Instale as dependências:
+npm install
+Inicie o servidor:
+node index.js
+Acesse a documentação no navegador:
+http://localhost:3000/api-docs
+
