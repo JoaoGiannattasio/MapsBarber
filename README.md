@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/seu-usuario/barbershop/main/assets/logo.png" alt="Barbershop Logo" width="200">
+  <img src="https://github.com/JoaoGiannattasio/MapsBarber/blob/main/funcioa.png" alt="Barbershop Logo" width="200">
   <br>
   Barbershop API
   <br>
