@@ -47,4 +47,78 @@
 5. Acesse a documentação no navegador:
    ```bash
    http://localhost:3000/api-docs
+Endpoints
+Clientes
+GET /clientes
+Lista todos os clientes cadastrados.
+
+GET /clientes/:id
+Busca um cliente pelo ID.
+
+POST /clientes
+Adiciona um novo cliente.
+
+PATCH /clientes/:id
+Atualiza informações de um cliente.
+
+DELETE /clientes/:id
+Exclui um cliente pelo ID.
+
+Agendamentos
+GET /agendamentos
+Lista todos os agendamentos.
+
+GET /agendamentos/:id
+Busca um agendamento pelo ID.
+
+POST /agendamentos
+Cria um novo agendamento.
+
+PATCH /agendamentos/:id
+Atualiza informações de um agendamento.
+
+DELETE /agendamentos/:id
+Exclui um agendamento pelo ID.
+
+Serviços
+GET /servicos
+Lista todos os serviços disponíveis.
+
+GET /servicos/:id
+Busca um serviço pelo ID.
+
+POST /servicos
+Adiciona um novo serviço.
+
+PATCH /servicos/:id
+Atualiza informações de um serviço.
+
+DELETE /servicos/:id
+Exclui um serviço pelo ID.
+
+Feedbacks
+GET /feedbacks
+Lista todos os feedbacks enviados.
+
+POST /feedbacks
+Adiciona um novo feedback.
+
+DELETE /feedbacks/:id
+Exclui um feedback pelo ID.
+
+Login
+POST /login
+Autentica um usuário e retorna um token.
+
+GET /usuarios
+Lista todos os usuários cadastrados.
+
+POST /usuarios
+Adiciona um novo usuário.
+
+PATCH /usuarios/:id
+Atualiza informações de um usuário.
+
+DELETE /usuarios/:id
+Exclui um usuário pelo ID.
 
