@@ -47,78 +47,42 @@
 5. Acesse a documentação no navegador:
    ```bash
    http://localhost:3000/api-docs
-Endpoints
-Clientes
-GET /clientes
-Lista todos os clientes cadastrados.
 
-GET /clientes/:id
-Busca um cliente pelo ID.
-
-POST /clientes
-Adiciona um novo cliente.
-
-PATCH /clientes/:id
-Atualiza informações de um cliente.
-
-DELETE /clientes/:id
-Exclui um cliente pelo ID.
-
-Agendamentos
-GET /agendamentos
-Lista todos os agendamentos.
-
-GET /agendamentos/:id
-Busca um agendamento pelo ID.
-
-POST /agendamentos
-Cria um novo agendamento.
-
-PATCH /agendamentos/:id
-Atualiza informações de um agendamento.
-
-DELETE /agendamentos/:id
-Exclui um agendamento pelo ID.
-
-Serviços
-GET /servicos
-Lista todos os serviços disponíveis.
-
-GET /servicos/:id
-Busca um serviço pelo ID.
-
-POST /servicos
-Adiciona um novo serviço.
-
-PATCH /servicos/:id
-Atualiza informações de um serviço.
-
-DELETE /servicos/:id
-Exclui um serviço pelo ID.
-
-Feedbacks
-GET /feedbacks
-Lista todos os feedbacks enviados.
-
-POST /feedbacks
-Adiciona um novo feedback.
-
-DELETE /feedbacks/:id
-Exclui um feedback pelo ID.
-
-Login
-POST /login
-Autentica um usuário e retorna um token.
-
-GET /usuarios
-Lista todos os usuários cadastrados.
-
+-----------------
+Recursos e Endpoints
+Cortes
+POST /cortes
+Adiciona um novo corte.
+GET /cortes
+Lista todos os cortes.
+PUT /cortes/{id}
+Atualiza os dados de um corte específico.
+------------------
+Horários
+POST /horarios
+Adiciona um novo horário.
+GET /horarios
+Lista todos os horários.
+PUT /horarios/{id}
+Atualiza os dados de um horário específico.
+DELETE /horarios/{id}
+Exclui um horário.
+----------------------
+Barbeiros
+POST /barbeiros
+Adiciona um novo barbeiro.
+GET /barbeiros
+Retorna a lista de barbeiros.
+PUT /barbeiros/{id}
+Atualiza os dados de um barbeiro específico.
+DELETE /barbeiros/{id}
+Remove um barbeiro.
+---------------------
+Usuários
 POST /usuarios
-Adiciona um novo usuário.
-
-PATCH /usuarios/:id
-Atualiza informações de um usuário.
-
-DELETE /usuarios/:id
-Exclui um usuário pelo ID.
+Cadastra um novo usuário.
+Autenticação
+POST /login
+Realiza login de um usuário.
+----------------
 
