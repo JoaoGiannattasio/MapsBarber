@@ -46,7 +46,7 @@
    node index.js
 5. Acesse a documentação no navegador:
    ```bash
-   http://localhost:3000/api-docs
+   http://localhost:3000/api-docs/#
 
 ## Endpoints Disponíveis
 
