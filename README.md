@@ -10,6 +10,8 @@
 - [🏗️ Estrutura do Banco de Dados](#estrutura-do-banco-de-dados)
 - [🚀 Rotas da API](#rotas-da-api)
 - [🏢 Sobre o Sistema](#sobre-o-sistema)
+- [🎉 Contribua para o Projeto](#contribua-para-o-projeto)
+- [📜 Licença](#licença)
 
 ---
 
@@ -25,7 +27,6 @@ Instale as dependências:
 npm install
 Inicie o servidor:
 npm start
-
 O servidor estará em execução no endereço:
 http://localhost:3000
 
@@ -51,7 +52,6 @@ O sistema utiliza um banco de dados MySQL com as seguintes tabelas:
 
 Usuários
 Armazena informações dos clientes e administradores.
-
 Campos:
 
 id
@@ -61,7 +61,6 @@ senha
 role (admin/user)
 Barbeiros
 Armazena informações dos barbeiros.
-
 Campos:
 
 id
@@ -71,7 +70,6 @@ telefone
 Hospital_id (chave estrangeira)
 Cortes
 Armazena informações sobre os cortes disponíveis.
-
 Campos:
 
 id
@@ -80,7 +78,6 @@ preço
 descrição
 Agendamentos
 Armazena informações sobre os agendamentos dos clientes.
-
 Campos:
 
 id
@@ -91,7 +88,6 @@ Barbeiro_id (chave estrangeira)
 Corte_id (chave estrangeira)
 Feedback
 Armazena feedbacks dos clientes sobre os barbeiros.
-
 Campos:
 
 id
@@ -150,13 +146,3 @@ Envie suas modificações para o branch (git push origin minha-nova-feature).
 Crie um novo Pull Request para revisão.
 📜 Licença
 Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
-
-👨‍💻 Desenvolvido com ❤️ por Seu Nome.
-
-### Detalhes da estrutura do README:
-
-- **Links de navegação**: A documentação usa links internos (`[título](#link)`) para facilitar a navegação e tornar o documento mais interativo e organizado.
-- **Ícones**: Emojis são usados para tornar a leitura mais visualmente atraente.
-- **Markdown**: A formatação foi estruturada com cabeçalhos, listas, blocos de código, links e outras características do Markdown para tornar a documentação clara e fácil de ler.
-  
-Você pode copiar e colar o conteúdo acima no seu arquivo `README.md`. Assim, ele ficará bem estruturado e organizado para que qualquer desenvolvedor ou usuário possa entender rapidamente o funcionamento e como configurar o projeto.
