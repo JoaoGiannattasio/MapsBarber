@@ -5,6 +5,11 @@ Sumário
 Instalação
 
 Configuração
+git clone https://github.com/SEU_USUARIO/BarberShop
+cd BarberShop
+
+npm install
+npm start
 
 Rotas da API
 
