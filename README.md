@@ -72,5 +72,27 @@
 
 ### Autenticação
 - **POST** `/login` - Realiza o login de um usuário.
+### Agendamentos
+- **DELETE** `/agendamentos/{id}` - Exclui um agendamento.  
+- **PUT** `/agendamentos/{id}` - Atualiza um agendamento.  
+- **POST** `/agendamentos` - Cria um novo agendamento.  
+- **GET** `/agendamentos` - Lista todos os agendamentos.  
+- **DELETE** `/agendamentos/porHorario/{horarioId}` - Exclui agendamentos por horário.  
+
+### Feedback
+- **POST** `/feedback` - Cria um feedback.  
+- **GET** `/feedback` - Lista todos os feedbacks.  
+- **PUT** `/feedback/{id}` - Atualiza um feedback.  
+- **DELETE** `/feedback/{id}` - Exclui um feedback.  
+
+### Usuário
+- **GET** `/usuario` - Obtém o usuário.  
+
+### Preços
+- **GET** `/precos` - Busca preços.  
+- **POST** `/precos` - Adiciona um preço.  
+- **PUT** `/precos/{id}` - Atualiza um preço.  
+- **DELETE** `/precos/{id}` - Exclui um preço.
+
 
 
