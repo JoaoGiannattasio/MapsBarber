@@ -2,63 +2,36 @@
   <br>
   <img src="https://raw.githubusercontent.com/seu-usuario/barbershop/main/assets/logo.png" alt="Barbershop Logo" width="200">
   <br>
-  Barbershop
+  Barbershop API
   <br>
 </h1>
 
-<h4 align="center">Aplicativo para gerenciamento e agendamento de serviços em uma barbearia.</h4>
-
-<p align="center">
-  <a href="#key-features">Principais Funcionalidades</a> •
-  <a href="#how-to-use">Como Usar</a> •
-  <a href="#download">Download</a> •
-  <a href="#credits">Créditos</a> •
-  <a href="#license">Licença</a>
-</p>
-
-![screenshot](https://raw.githubusercontent.com/seu-usuario/barbershop/main/assets/screenshot.png)
+<h4 align="center">API para gestão de agendamentos, clientes, serviços e feedbacks em uma barbearia.</h4>
 
 ---
 
-## Principais Funcionalidades
+## Recursos
 
-- Agendamento rápido e intuitivo de serviços.
-- Gerenciamento de horários e clientes.
-- Notificações de lembrete para clientes e barbeiros.
-- Histórico de serviços realizados.
-- Suporte para múltiplos serviços (corte, barba, coloração, etc.).
-- Interface moderna e fácil de usar.
-- Compatível com dispositivos Android e iOS.
+- **Agendamentos:** Gerencie os horários e serviços agendados para os clientes.
+- **Clientes:** Controle as informações dos clientes cadastrados.
+- **Serviços:** Cadastre e gerencie serviços disponíveis na barbearia (corte, barba, etc.).
+- **Feedbacks:** Receba e gerencie os feedbacks dos clientes.
+- **Login:** Gerencie autenticação de usuários (administradores e clientes).
 
 ---
 
-## Como Usar
+## Tecnologias Utilizadas
 
-Para clonar e executar este projeto, você precisará do [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/download/) e [React Native](https://reactnative.dev/) instalados em sua máquina. No terminal:
+- **Node.js**
+- **Express**
+- **Swagger** para documentação da API
+- **Arquitetura RESTful**
 
-```bash
-# Clone este repositório
-$ git clone https://github.com/seu-usuario/barbershop.git
+---
 
-# Entre no diretório
-$ cd barbershop
+## Instalação
 
-# Instale as dependências
-$ npm install
+1. Clone este repositório:
 
-# Execute o projeto
-$ npm start
----------------
-Download
-Baixe o aplicativo para sua plataforma:
-
-Android
-iOS
-Créditos
-Este projeto utiliza os seguintes pacotes e tecnologias open source:
-
-React Native
-Node.js
-Redux
-React Navigation
-Firebase
+   ```bash
+   git clone https://github.com/seu-usuario/barbershop.git
