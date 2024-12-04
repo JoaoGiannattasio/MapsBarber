@@ -162,6 +162,7 @@ Este projeto utiliza as seguintes bibliotecas e ferramentas Python. Certifique-s
 - **POST** `/cortes` - Adiciona um novo corte.  
 - **GET** `/cortes` - Lista todos os cortes.  
 - **PUT** `/cortes/{id}` - Atualiza os dados de um corte.  
+- **DELETE** `/cortes/{id}` - Exclui um corte.
 
 ### Horários
 - **POST** `/horarios` - Adiciona um novo horário.  
@@ -191,14 +192,17 @@ Este projeto utiliza as seguintes bibliotecas e ferramentas Python. Certifique-s
 - **DELETE** `/feedback/{id}` - Exclui um feedback.  
 
 ### Usuário
-- **GET** `/usuario` - Obtém o usuário.
-    
+- **GET** `/usuario` - Obtém os dados do usuário.  
+- **POST** `/usuario` - Cria um novo usuário.  
+- **PUT** `/usuario/{id}` - Atualiza um usuário.  
+- **DELETE** `/usuario/{id}` - Exclui um usuário.
 
 ### Preços
 - **GET** `/precos` - Busca preços.  
 - **POST** `/precos` - Adiciona um preço.  
 - **PUT** `/precos/{id}` - Atualiza um preço.  
 - **DELETE** `/precos/{id}` - Exclui um preço.
+
 
 
 
