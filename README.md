@@ -12,6 +12,7 @@
 ## Documentação BarberShop: https://manuellrds.github.io/docprjetoBARBER/
 
 ##MANUAL DO USUÁRIO: https://manuellrds.github.io/manueldeusuario/Manual_de_usuario.pdf
+- **Para econtrar o manual de usuário no app, fica esse caminho app\src\pages\login\index.tsx **
 
 ## Recursos
 
