@@ -96,6 +96,13 @@ Necessário para rodar o npm e gerenciar dependências do projeto. Você pode ba
    ```bash
    npm install -g expo-cli
 
+7. Instale o servidor python
+    ```bash
+       pip install Flask
+8. Inicie o servidor flask
+   ```bash
+   py server.py
+
 7. Inicie o servidor:
    ```bash
    node server.js
@@ -144,9 +151,9 @@ Este projeto utiliza as seguintes bibliotecas e ferramentas Python. Certifique-s
 
 ### Como Instalar as Dependências
 
-Para instalar todas as bibliotecas listadas, você pode usar o seguinte comando:
+10. Para instalar todas as bibliotecas listadas, você pode usar o seguinte comando:
     ```bash
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 
 ## Endpoints Disponíveis
