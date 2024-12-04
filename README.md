@@ -11,6 +11,8 @@
 ---
 ## Documentação BarberShop: https://manuellrds.github.io/docprjetoBARBER/
 
+##MANUAL DO USUÁRIOhttps://manuellrds.github.io/manueldeusuario/Manual_de_usuario.pdf
+
 ## Recursos
 
 - **Agendamentos:** Gerencie os horários e serviços agendados para os clientes.
