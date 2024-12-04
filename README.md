@@ -11,7 +11,7 @@
 ---
 ## Documentação BarberShop: https://manuellrds.github.io/docprjetoBARBER/
 
-##MANUAL DO USUÁRIOhttps://manuellrds.github.io/manueldeusuario/Manual_de_usuario.pdf
+##MANUAL DO USUÁRIO: https://manuellrds.github.io/manueldeusuario/Manual_de_usuario.pdf
 
 ## Recursos
 
